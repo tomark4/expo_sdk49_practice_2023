@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 
 import { COLORS, SIZES } from "../../../constants";
 
-const styles = StyleSheet.create({
+const styles = StyleSheet.create<any>({
   btnContainer: {
     width: 40,
     height: 40,
